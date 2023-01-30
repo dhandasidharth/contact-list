@@ -1,0 +1,30 @@
+#firstHeading{
+    font-family: sans-serif;
+}
+#top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:5vh;
+    width:80%;
+    background-color: blue;
+    margin:5px;
+}
+#firstDelete{
+    background-color: red;
+}
+.flex:hover{
+    background-color:blueviolet;
+}
+.insideFlex{
+    color:white;
+}
+#topList{
+    width:50%;
+    border:2px solid black;
+}
